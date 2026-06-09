@@ -10,7 +10,7 @@ const BookSchema = new Schema({
   genre: [{ type: Schema.ObjectId, ref: "Genre" }],
 });
 
-// Virtual for this book instance URL.
+// Virtual for this manga instance URL.
 BookSchema.virtual("url").get(function () {
   return "/catalog/book/" + this._id;
 });

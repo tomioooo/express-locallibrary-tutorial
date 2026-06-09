@@ -10,7 +10,7 @@ const AuthorSchema = new Schema({
   date_of_death: { type: Date },
 });
 
-// Virtual for author "full" name.
+// Virtual for mangaka "full" name.
 AuthorSchema.virtual("name").get(function () {
   return this.family_name + ", " + this.first_name;
 });
