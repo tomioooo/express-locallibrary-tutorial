@@ -90,10 +90,12 @@ async function createGenres() {
   console.log("Adding genres");
   await Promise.all([
     genreCreate(0, "Shonen"),
-    genreCreate(1, "Seinen"),
-    genreCreate(2, "Magia / Fantasia"),
-    genreCreate(3, "Shoujo"),
-    genreCreate(4, "Ação"),
+    genreCreate(1, "Adventure"),
+    genreCreate(2, "Supernatural"),
+    genreCreate(3, "Fantasy"),
+    genreCreate(4, "Action"),
+    genreCreate(5, "Dark Fantasy"),
+    genreCreate(6, "Romance"),
   ]);
 }
 
