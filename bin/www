@@ -20,7 +20,7 @@ app.set("port", port);
  */
 const mongoose = require("mongoose");
 const dev_db_url =
-  "mongodb+srv://tomioooo:2jJ260308!@cluster0.cojoign.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://Tomio:2jJ260308!@cluster0.7fzfsyb.mongodb.net/?appName=Cluster0";
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 try {
